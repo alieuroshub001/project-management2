@@ -1,0 +1,134 @@
+08/08/2025, 12:03                                                 All_Modules_Roadmap.docx
+
+
+             All_Modules_Roadmap.docx
+
+
+
+   🗺️ Full Roadmap – All Modules
+   Team: 1 Developer & 1 Intern
+
+   Stack: React.js (Vite) + TailwindCSS + Firebase/Supabase (or Node.js + PostgreSQL)
+
+
+
+   1. Setup & Shared Infrastructure
+   Task                                  Est. Time                             Assigned
+
+   React + Vite + Tailwind +             2 days                                Dev + Intern
+   React Router
+
+
+   Auth/Role Integration (Admin,         3 days                                Dev + Intern
+   Users)
+
+   Sidebar + TopNav Layout               1 day                                 Intern
+
+
+
+   2. Project Management Module
+   Task                                  Est. Time                             Assigned
+
+   Create/Edit/Delete Projects           3 days                                Dev
+
+   List Projects w/ Filters              2 days                                Intern
+
+   Kanban Board + Drag & Drop            4 days                                Dev
+
+   Calendar + Gantt Views                4 days                                Dev
+
+   Task Comments + Mentions              2 days                                Dev
+
+   File Attachments in Tasks             2 days                                Intern
+
+   Team Assignment to                    2 days                                Dev
+   Projects/Tasks
+
+   Project Settings                      2 days                                Intern
+   (rename/archive/delete)
+
+
+
+   3. HR Management Module
+   Task                                  Est. Time                             Assigned
+
+   Employee Directory                    2 days                                Intern
+
+   Leave & Attendance Tracking           3 days                                Dev
+
+   Document Upload & Storage             2 days                                Intern
+
+   Onboarding/Offboarding                2 days                                Dev
+   Workflows
+
+
+
+https://docs.google.com/document/d/1AZXkdI4PPxwStS7AfqOcJ0Vq0-Q2GR5d/mobilebasic              1/2
+08/08/2025, 12:03                                                 All_Modules_Roadmap.docx
+   Role & Access Control                 2 days                                Dev
+             All_Modules_Roadmap.docx
+
+   4. Communication Module (Slack-like)
+   Task                                  Est. Time                             Assigned
+
+   Team Channels & Direct                2 days                                Dev
+   Messaging
+
+   Threaded Conversation                 3 days                                Dev
+   Support
+
+   File Sharing in Chats                 2 days                                Intern
+
+   Notifications & Mentions              2 days                                Dev
+
+   Voice/Video Chat (WebRTC              4 days                                Dev
+   optional)
+
+
+
+   5. Reporting Module
+   Task                                  Est. Time                             Assigned
+
+   Task Completion Reports               2 days                                Intern
+
+   User/Team Activity Logs               2 days                                Intern
+
+   Export to CSV/PDF                     1 day                                 Intern
+
+   Analytics Dashboard (KPIs,            2 days                                Dev
+   Charts)
+
+
+
+   6. Time Tracking Module (Upwork-style)
+   Task                                  Est. Time                             Assigned
+
+   Manual + Automatic Time               3 days                                Dev
+   Tracker
+
+   Periodic Screenshot Capture           3 days                                Dev
+
+   Activity Monitoring                   2 days                                Dev
+   (Keystroke/Mouse)
+
+   Idle Time Detection & Alerts          1 day                                 Dev
+
+   Timesheets Submission &               2 days                                Dev
+   Approval Flow
+
+
+
+   7. QA, Testing & Deployment
+   Task                                  Est. Time                             Assigned
+
+   Manual & Component Testing            2 days                                Intern
+
+   Bug Fixes & Optimizations             2 days                                Dev
+
+   Setup CI/CD (Vercel/Netlify)          1 day                                 Dev
+
+
+
+
+https://docs.google.com/document/d/1AZXkdI4PPxwStS7AfqOcJ0Vq0-Q2GR5d/mobilebasic             2/2
+
