@@ -1,0 +1,247 @@
+08/08/2025, 12:04                                             Detailed_All_Modules_Roadmap.docx
+
+
+             Detailed_All_Modules_Roadmap.docx
+
+
+
+   🗺️ Detailed Roadmap – All Modules with
+   Subpoints
+   Team: 1 Developer & 1 Intern
+
+   Stack: React.js (Vite) + TailwindCSS + Firebase/Supabase (or Node.js + PostgreSQL)
+
+
+
+   1. Setup & Shared Infrastructure
+        ● React + Vite + Tailwind + Router Setup
+
+             1. Initialize Vite + TailwindCSS project
+             2. Setup ESLint/Prettier for code quality
+             3. Add React Router with protected routes
+
+        ● Role-based Auth
+
+             4. Implement login/signup/logout flows
+             5. Add email verification and password reset
+             6. Restrict views based on roles (admin, team, client)
+
+        ● Sidebar + TopNav Layout
+
+             7. Create collapsible sidebar with navigation icons
+             8. Implement responsive top navigation bar
+             9. Add active route highlighting
+
+
+
+   2. Project Management Module
+        ● Create/Edit/Delete Projects
+
+             10. Form to add new projects with title/description
+             11. Ability to edit and archive/delete projects
+             12. Set visibility: public/private
+
+        ● Project Views and Filters
+
+             13. List all projects with filters by owner/status
+             14. Search by title and tags
+             15. Paginated project table/list
+
+        ● Kanban Board + Drag-and-Drop
+
+             16. Create columns: To Do, In Progress, Done
+             17. Drag tasks between columns using react-beautiful-dnd
+             18. Support reordering within columns
+
+        ● Calendar & Gantt Views
+
+             19. Calendar using react-big-calendar
+             20. Gantt chart using Frappe Gantt or similar
+             21. Color-coded tasks by priority
+
+        ● Task Management
+
+
+https://docs.google.com/document/u/0/d/11DuUbDU859ItjF7L1nRuCG191wpGSC3T/mobilebasic?pli=1        1/4
+08/08/2025, 12:04                                             Detailed_All_Modules_Roadmap.docx
+             22. Create/edit tasks with title, description, and labels
+             Detailed_All_Modules_Roadmap.docx
+             23. Assign due date, priority, and assignee
+             24. Enable task checklists and status updates
+
+        ● Task Comments & Mentions
+
+             25. Add comments section per task
+             26. Notify mentioned users via @mentions
+             27. Render markdown or rich text editor
+
+        ● File Attachments
+
+             28. Drag & drop or select files to upload
+             29. Use Firebase Storage or S3-compatible API
+             30. Preview images, PDFs
+
+        ● Project Settings
+
+             31. Rename project, manage team access
+             32. Transfer ownership, archive/delete
+             33. Webhook or email notifications (optional)
+
+
+
+   3. HR Management Module
+        ● Employee Directory
+
+             34. Profile: Name, email, phone, department, role
+             35. Filter/search team members
+             36. Profile picture upload
+
+        ● Leave & Attendance
+
+             37. Track clock-in/clock-out
+             38. Leave types: Casual, Sick, Annual
+             39. Leave request and approval workflow
+
+        ● Document Management
+
+             40. Store CVs, ID cards, contracts
+             41. Assign expiry dates for docs
+             42. Categorize files by type
+
+        ● Onboarding/Offboarding
+
+             43. Checklist for onboarding steps
+             44. Send welcome documents/invite email
+             45. Track exit checklist and assets
+
+        ● Role & Access Control
+
+             46. Define permission levels: Admin, HR, Staff
+             47. Control module visibility by role
+             48. Audit user access logs
+
+
+
+   4. Communication Module
+        ● Channels & DMs
+
+             49. Create team or project-specific channels
+             50. Allow private messages between users
+             51. Invite users to channels
+
+        ● Threaded Messaging
+
+https://docs.google.com/document/u/0/d/11DuUbDU859ItjF7L1nRuCG191wpGSC3T/mobilebasic?pli=1        2/4
+08/08/2025, 12:04                                             Detailed_All_Modules_Roadmap.docx
+             52. Reply to specific messages in thread
+             Detailed_All_Modules_Roadmap.docx
+             53. Show nested thread view
+             54. Mark threads as resolved
+
+        ● File Sharing
+
+             55. Drag/drop or select files to send
+             56. Preview files (PDF, image, video) in chat
+             57. Link to uploaded task attachments
+
+        ● Notifications & Mentions
+
+             58. In-app notifications (toast, badge)
+             59. Email notifications for offline users
+             60. Highlight @mentions in chat
+
+        ● Voice/Video Chat (optional)
+
+             61. Integrate WebRTC or Jitsi Meet
+             62. One-on-one and group calls
+             63. Mute, screen share, end call actions
+
+
+
+   5. Reporting Module
+        ● Task & Productivity Reports
+
+             64. Project progress tracking (percent done)
+             65. Completed task count per user
+             66. Daily/weekly reports
+
+        ● User Activity Logs
+
+             67. Log login times, actions taken
+             68. Audit access to sensitive info
+             69. Filter logs by user/date
+
+        ● Exporting Reports
+
+             70. Download CSV/PDF
+             71. Print-friendly report view
+             72. Email scheduled reports
+
+        ● KPI Dashboards
+
+             73. Cards for project count, tasks overdue
+             74. Charts for productivity and team load
+             75. Custom time range filters
+
+
+
+   6. Time Tracking & Monitoring
+        ● Manual & Auto Tracking
+
+             76. Start/Stop timer manually
+             77. Track duration per task/project
+             78. Background tracking (optional)
+
+        ● Screenshot Capture
+
+             79. Capture every X minutes
+             80. Blur sensitive data (optional)
+             81. Enable screenshot review by admin
+
+        ● Activity Monitoring
+
+https://docs.google.com/document/u/0/d/11DuUbDU859ItjF7L1nRuCG191wpGSC3T/mobilebasic?pli=1        3/4
+08/08/2025, 12:04                                             Detailed_All_Modules_Roadmap.docx
+             82. Track mouse/keyboard usage
+             Detailed_All_Modules_Roadmap.docx
+             83. Generate activity percentage
+             84. Flag idle periods automatically
+
+        ● Idle Detection & Alerts
+
+             85. Detect inactivity (no input)
+             86. Pause timer or notify user
+             87. Log idle time separately
+
+        ● Timesheets & Approval
+
+             88. Show weekly logged hours
+             89. Submit for manager approval
+             90. Reject/resubmit workflow
+
+
+
+   7. QA, Testing & Deployment
+        ● Testing
+
+             91. Manual testing by intern
+             92. Unit tests for forms and APIs
+             93. Edge case testing (invalid dates, blank fields)
+
+        ● Bug Fixes & Optimization
+
+             94. Fix visual/UI bugs
+             95. Improve load times and performance
+             96. Check console warnings/errors
+
+        ● Deployment
+
+             97. Host frontend (Vercel, Netlify)
+             98. Host backend (Firebase Functions or Render)
+             99. Setup custom domain and HTTPS
+
+
+
+
+https://docs.google.com/document/u/0/d/11DuUbDU859ItjF7L1nRuCG191wpGSC3T/mobilebasic?pli=1        4/4
+
